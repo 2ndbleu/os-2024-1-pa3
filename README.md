@@ -169,17 +169,17 @@ $ make png                 <--- Generate the graph. (this should be done on Ubun
 
 If everything goes fine, you will get the following graph. 
 
-![task1-rr image](https://github.com/snu-csl/os-pa3-plan/blob/master/task1-rr.png)
+![task1-rr image](https://github.com/snu-csl/os-pa3/blob/master/task1-rr.png)
 
 
 If the same `task1` program is executed under the EDF scheduler, you should get the following graph. You can see that $P_1$ is executed once  every 3 ticks, and $P_2$ once every 4 ticks.
 
-![task1-edf image](https://github.com/snu-csl/os-pa3-plan/blob/master/task1-edf.png)
+![task1-edf image](https://github.com/snu-csl/os-pa3/blob/master/task1-edf.png)
 
 
 The `task2` program forks three real-time processes, $P_1 = (1, 8)$, $P_2 = (2, 5)$, and $P3 = (4, 10)$, as in the example [here](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling#Example). The scheduling sequence under the EDF scheduler will look like this.
 
-![task2-edf image](https://github.com/snu-csl/os-pa3-plan/blob/master/task2-edf.png)
+![task2-edf image](https://github.com/snu-csl/os-pa3/blob/master/task2-edf.png)
 
 
 ## Tips
